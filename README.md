@@ -1,0 +1,2 @@
+# Amora
+Apenas para estudos
