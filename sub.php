@@ -65,9 +65,9 @@
 	}
 ?>
 <!DOCTYPE html>
-<html class="ls-theme-green">
+<html class="ls-theme-gray">
   <head>
-    <title>Repositório Institucional - IFBA - VCA</title>
+    <title>RID-Fatec Ourinhos</title>
 
     <?php require_once('assets.php');?>
 
@@ -142,9 +142,9 @@
 		<table class="ls-table ls-bg-header ls-table-striped ls-table-bordered display" cellspacing="0" cellpadding="0" border="0" id="tb1">
 			<thead>
 				<th style="text-align:center;">Título</th>
-				<th style="text-align:center;">Autor (es)</th>
-				<th style="text-align:center;">Evento</th>
-				<th style="text-align:center;">Operações</th>
+				<th style="text-align:center;">Autor(es)</th>
+				<th style="text-align:center;">Orientador</th>
+				<th style="text-align:center;">Ações</th>
 				
 			</thead>
 			<tbody>';
@@ -153,7 +153,7 @@
 						echo '<tr>';
 							echo '<td style="text-align:justify;">'.$pub['titulo'].'</td>';
 							echo '<td style="text-align:center;">'.$pub['autores'].'</td>';
-							echo '<td style="text-align:center;">'.$pub['evento'].'</td>';
+							echo '<td style="text-align:center;">'.$pub['orientador'].'</td>';
 							echo '<td style="text-align:center;">
     								<a href="sub.php?id='.$pub['id'].'" class="ls-btn ls-ico-checkmark bt-aprovar" title="Aprovar"></a>
 								   	
@@ -175,8 +175,6 @@
 		
 	
     </main>
-
-    <?php require_once('assets-footer.php');?>
 
   </body>
 </html>

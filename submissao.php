@@ -49,10 +49,10 @@ if ($form && $form ['submit']) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Repositório Institucional - Fatec Ourinhos</title>
+    <title>RID- Fatec Ourinhos</title>
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/repositorio.css" rel="stylesheet">
+    
 
     <script src="assets/js/jquery-2.1.4.min.js"></script>
 
@@ -71,7 +71,7 @@ if ($form && $form ['submit']) {
 		        <span class="icon-bar"></span>
 		      </button>
 		      <a class="navbar-brand" href="index.php">
-		      	<img alt="Repositório Institucional Fatec Ourinhos" class="img-responsive img" src="assets/img/bg-masthead.jpg">
+		      	
 		      </a>
 		    </div>
 		
@@ -79,13 +79,15 @@ if ($form && $form ['submit']) {
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right">
 		      	<li class="nav-item"><a class="nav-link js-scroll-trigger" href="gerar_pdf.php">Termo de autoarquivamento para impressão</a></li>
-		        <li class="li-login"><a href="Cliente.php" class="login" title="Área do Aluno"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Login</a></li>
+		       <li class="li-login"><a href="cliente.php" class="login" style="color:#100b0b;" title="Página do Aluno"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
 		        
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-
+	
+		
+		<img alt="Repositório Institucional Fatec Ourinhos" class="img-responsive img" src="assets/img/bg-masthead.jpg"><p>
 		<div class="container abc">
 		
 			<?php
@@ -98,7 +100,7 @@ if ($form && $form ['submit']) {
 			}
 			?>
 
-			<div class="alert alert-info">
+			<div class="alert alert-danger" role="alert">
 				<p>Obs.: Para disponibilizar sua produção científica no Repositório deve-se submeter  o artigo através deste formulário. Onde o mesmo deverá ser aprovado pelo administrador do sistema.</p>
 				<hr>
 				<p>Requisito para submissão:</p>
@@ -132,12 +134,12 @@ if ($form && $form ['submit']) {
 						
 						<div class="form-group col-lg-6 col-md-6">
 					    	<label class="" for="">Ano <span class="requisito">*</span>:</label>
-							<input type="number" class="form-control inp br" name="ano" placeholder="Ex: 2015" required>
+							<input type="number" class="form-control inp br" name="ano" placeholder="Ex: 2020" required>
 						</div>
 						
 						<div class="form-group col-lg-6 col-md-6">
 					    	<label class="" for="">Curso <span class="requisito">*</span>:</label>
-							<input type="text" class="form-control inp br" name="curso" placeholder="Curso" required>
+							<input type="text" class="form-control inp br" name="curso" placeholder="Nome do Curso sem abreviações" required>
 						</div>
 						<div class="form-group col-lg-12 col-md-12">
 					    	<label class="" for="">Palavras-Chaves <span class="requisito">*</span>:</label>

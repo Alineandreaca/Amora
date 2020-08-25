@@ -2,7 +2,7 @@
 include_once "conexao.php";
 
 //consultar no banco de dados
-$result_usuario = "SELECT * FROM usuarios ORDER BY id DESC";
+$result_usuario = "SELECT * FROM usuarios_alunos ORDER BY id DESC";
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 

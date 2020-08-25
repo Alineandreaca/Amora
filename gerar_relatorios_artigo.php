@@ -6,7 +6,7 @@
 	$html .= '<thead>';
 	$html .= '<tr>';
 	$html .= '<th>ID</th>';
-	$html .= '<th>Autor</th>';
+	$html .= '<th>Autores</th>';
 	$html .= '<th>Título</th>';
 	$html .= '<th>Orientador</th>';
 	$html .= '<th>Curso</th>';
@@ -14,11 +14,11 @@
 	$html .= '</thead>';
 	$html .= '<tbody>';
 	
-	$result_relatorio_artigo = "SELECT * FROM artigos";
+	$result_relatorio_artigo = "SELECT * FROM publicacao";
 	$resultado_relatorio = mysqli_query($conn, $result_relatorio_artigo);
 	while($row_relatorios = mysqli_fetch_assoc($resultado_relatorio)){
 	$html .= '<tr><td>'.$row_relatorios['id'] . "</td>";
-	$html .= '<td>'.$row_relatorios['autor'] . "</td>";
+	$html .= '<td>'.$row_relatorios['autores'] . "</td>";
 	$html .= '<td>'.$row_relatorios['titulo'] . "</td>";
 	$html .= '<td>'.$row_relatorios['orientador'] . "</td>";
 	$html .= '<td>'.$row_relatorios['curso'] . "</td></tr>";		

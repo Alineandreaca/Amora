@@ -21,7 +21,7 @@
 		<meta name = "description" content = "">
 		<meta name = "author" content = "Aline Andreaça dos Santos">
 		<link rel = "icon" href = "imagens /ms-icon-70x70.png">
-          <title>Login- Repositório Institucional Fatec Ourinhos</title>
+          <title>RID - Fatec Ourinhos</title>
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -47,8 +47,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#login">Submeter artigo</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cadastra.php">Cadastro de alunos</a></li>
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="admin.php">Administrativo</a></li>
-						
-                    </ul>
+				    </ul>
                 </div>
             </div>
         </nav>
@@ -61,8 +60,8 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">O Repositório Institucional Digital é o instrumento oficial para coleta, organização e preservação de todo o conhecimento produzido na Fatec Ourinhos.<br><br>
-						Para acesso aos artigos científicos e também o download das obras é necessário realizar o login.</p>
+                        <p class="text-white-75 font-weight-light mb-5">O Repositório Institucional Digital é o instrumento oficial para coleta, organização e preservação de todo o conhecimento produzido pelos alunos na Fatec Ourinhos.<br><br>
+					
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="pesquisaindex.php">Faça sua pesquisa</a>
 						<p class="text-center text-white">
 						<?php if(isset($_SESSION['loginErro'])){
@@ -236,7 +235,7 @@ body
 			
               <div class="custom-control custom-checkbox mb-3">
                 <input type="checkbox" class="custom-control-input" id="customCheck1">
-                <label class="custom-control-label" for="customCheck1">Lembrar senha</label>
+                <!--label class="custom-control-label" for="customCheck1">Lembrar senha-->
               </div>
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Acessar</button>
               
@@ -253,13 +252,13 @@ body
 	<!-- section-->
       <section class="page-section" id="sobre">
             <div class="container text-justify">
-                <h5 class="mb-4">Este protótipo é um repositório institucional digital para armazenamento, 
+                <h5 class="mb-4"><p>Este protótipo é um repositório institucional digital para armazenamento, 
 				disseminação e recuperação de trabalhos de graduação da FATEC Ourinhos. Essa aplicação tem 
 				por objetivo facilitar a comunicação científica entre a comunidade acadêmica através deste repositório 
-				institucional digital, contribuindo assim para o ciclo de criação, disseminação e uso da informação científica. 
-				Para construção de todo o projeto do sistema, foi utilizada ferramentas que geram diagramas e 
+				institucional digital, contribuindo assim para o ciclo de criação, disseminação e uso da informação científica.</p>
+				<p>Para construção de todo o projeto do sistema, foi utilizada ferramentas que geram diagramas e 
 				auxiliam na documentação do software, linguagem PHP para construção do sistema, banco de dados 
-				MySql e Modelo Hibrído como padrão de elaboração de todo o projeto de documentação da aplicação.</h5>
+				MySql e Modelo Hibrído como padrão de elaboração de todo o projeto de documentação da aplicação.<p></h5>
                 </div>
         </section>
         			 <!-- Contact section-->

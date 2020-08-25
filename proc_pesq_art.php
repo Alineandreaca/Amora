@@ -56,8 +56,6 @@ while( $row_usuarios =mysqli_fetch_array($resultado_usuarios) ) {
 	$dado[] = $row_usuarios["curso"];
 	$dado[] = $row_usuarios["ano"];
 	$dado[] = $row_usuarios["palavra"];
-	//$dado[] = $row_usuarios["palavra"];
-	//$dado[] = $row_usuarios["palavra"];
 	$dados[] = $dado;
 }
 //Cria o array de informações a serem retornadas para o Javascript
@@ -69,3 +67,4 @@ $json_data = array(
 );
 
 echo json_encode($json_data);  //enviar dados como formato json
+?>

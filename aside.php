@@ -7,7 +7,6 @@
               <nav class="ls-dropdown-nav ls-user-menu">
                 <ul>
                   <li><a href="perfil.php">Perfil</a></li>
-                  <!-- <li><a href="perfil.php">Meus dados</a></li> -->
                   <li><a href="logout.php">Sair</a></li>
                 </ul>
               </nav>
@@ -19,12 +18,11 @@
       <nav class="ls-menu">
         <ul>
            <li><a href="painel.php" class="ls-ico-dashboard" title="Dashboard">Painel de controle</a></li>
-           <li><a href="listaPesquisa.php" class="ls-ico-ftp" title="Projeto de Pesquisa">Projeto de Pesquisa</a></li>
-           <li><a href="listaExtensao.php" class="ls-ico-lamp" title="Projeto de Extensão">Projeto de Extensão</a></li>
+           <li><a href="listaUsuario.php" class="ls-ico-ftp" title="Projeto de Pesquisa">Usuários</a></li>
            <li><a href="listaPublicacao.php" class="ls-ico-docs" title="Publicação">Publicação</a></li>
            <li><a href="sub.php" class="ls-ico-cloud-upload" title="Submissões">Submissões</a></li>                   
 			<li>
-            <a href="#" class="ls-ico-lamp" title="Configurações">Relatórios em tabelas</a>
+            <!--a href="#" class="ls-ico-lamp" title="Configurações">Relatórios em tabelas</a>
             <ul>
               <li><a href="artigos_listados.php">Artigos</a></li>
                  </ul>
@@ -32,7 +30,7 @@
               <li><a href="usuarios_listados.php">Usuários</a></li>
                  </ul>
           </li> 
-			<li>
+			<li-->
             <a href="#" class="ls-ico-lamp" title="Configurações">Relatórios em PDF</a>
             <ul>
               <li><a href="gerar_relatorios_artigo.php">Artigos</a></li>

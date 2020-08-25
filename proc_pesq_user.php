@@ -22,7 +22,7 @@ $columns = array(
 	);	
 	
 //Obtendo registros de número total sem qualquer pesquisa
-$result_user="SELECT nome, cpf, rg, email, senha, niveis_acesso_id, telefone FROM usuarios";
+$result_user="SELECT nome, cpf, rg, email, senha, niveis_acesso_id, telefone FROM usuarios_alunos";
 $resultado_user = mysqli_query($conn,$result_user);
 $qnt_linhas=mysqli_num_rows($resultado_user);
 		
@@ -68,3 +68,4 @@ $json_data = array(
 );
 
 echo json_encode($json_data);  //enviar dados como formato json
+?>

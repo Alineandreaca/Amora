@@ -9,10 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Repositório Institucional - IFBA - VCA</title>
+    <title>RID - Fatec Ourinhos</title>
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/repositorio.css" rel="stylesheet">
+    <!--link href="assets/css/repositorio.css" rel="stylesheet"-->
 
     <script src="assets/js/jquery-2.1.4.min.js"></script>
 
@@ -34,20 +34,19 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="index.php">
-	      	<img alt="Repositório Institucional Fatec Ourinhos" class="img-responsive img" src="assets/img/bg-masthead.jpg">
-	      </a>
-	    </div>
+	      	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	      	<li class="li-login"><a href="index.php" class="login" style="color:#FFFFFF;" title="Página Inicial"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+	      	<li class="li-login"><a href="index.php" class="login" style="color:#100b0b;" title="Página Inicial"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
   	
+	<img alt="Repositório Institucional Digital Fatec Ourinhos" class="img-responsive img" src="assets/img/bg-masthead.jpg">
+	
 
 	<?php
 		$valida = false;
@@ -83,12 +82,10 @@
 	<div class="container abcd">
 
 		<div class="row text-center">
-			<!-- <h1>RI<span class="ft">IFBA</span></h1> -->
-						
-
+			 
 			<div class="col-md-4 col-lg-4 col-xs-12 contor col-lg-offset-4 col-md-offset-4">
-			<!-- <h2 class="hh">ÁREA DO ADMINISTRADOR</h2> -->
-			<p><img src="assets/images/l.png"></p>
+			 <h2 class="hh">ÁREA ADMINISTRATIVA</h2> 
+			<p><img src="assets/images/li.png"></p>
 				<form action="" method="post" name="AdminLoginForm">
 
 					<div class="form-group col-lg-12 col-md-12">
@@ -102,7 +99,7 @@
 					</div>
 
 					<div class="form-group col-lg-12 col-md-12">
-						<input type="submit" class="btn btn-default i bt-entrar" name="AdminLogin" value="Entrar">
+						<input type="submit" class="btn btn-danger btn-lg btn-block btn"" name="AdminLogin" value="Entrar">
 					</div>
 
 				</form>

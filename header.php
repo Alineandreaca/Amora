@@ -4,10 +4,9 @@
   <div class="ls-notification-topbar">
 
     <!-- Dropdown com detalhes da conta -->
-    <div data-ls-module="dropdown" class="ls-dropdown ls-user-account acc">
+    <div data-ls-module = "dropdown" class="ls-dropdown ls-user-account acc">
       <a href="#" class="ls-ico-user">
-        <!-- <img src="images/locastyle/avatar-example.jpg" alt="" /> -->
-        <span class="ls-name" style="text-transform:uppercase;"><?php echo $userLogin['nome']; ?></span>
+           <span class="ls-name" style="text-transform:uppercase;"><?php echo $userLogin['nome']; ?></span>
       </a>
 
       <nav class="ls-dropdown-nav ls-user-menu">

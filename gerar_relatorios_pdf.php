@@ -14,7 +14,7 @@
 	$html .= '</thead>';
 	$html .= '<tbody>';
 	
-	$result_relatorio = "SELECT * FROM usuarios";
+	$result_relatorio = "SELECT * FROM usuarios_alunos";
 	$resultado_relatorio = mysqli_query($conn, $result_relatorio);
 	while($row_relatorios = mysqli_fetch_assoc($resultado_relatorio)){
 	$html .= '<tr><td>'.$row_relatorios['id'] . "</td>";

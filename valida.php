@@ -9,7 +9,7 @@
 		
 			
 		//Buscar na tabela usuario o usuário que corresponde com os dados digitado no formulário
-		$result_usuario = "SELECT * FROM usuarios WHERE email = '$usuario' && senha = '$senha' LIMIT 1";
+		$result_usuario = "SELECT * FROM usuarios_alunos WHERE email = '$usuario' && senha = '$senha' LIMIT 1";
 		$resultado_usuario = mysqli_query($conn, $result_usuario);
 		$resultado = mysqli_fetch_assoc($resultado_usuario);
 		
